@@ -1,0 +1,49 @@
+.navbar {
+  height: 70px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar img {
+  background-color: var(--color-black);
+  margin-left: 5rem;
+  width: 70%;
+  cursor: pointer;
+}
+.navbuttons {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  margin-right: 20px;
+}
+.navbuttons .Button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Button button {
+  background-color: var(--color-black); /* Green background color */
+  border: 2px solid white;
+  color: white; /* White text color */
+  padding: 10px 20px; /* Add some padding */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.Button button:hover {
+  background-color: blueviolet;
+}
+
+@media (max-width: 600px) {
+  .navbuttons {
+    display: none;
+  }
+}
