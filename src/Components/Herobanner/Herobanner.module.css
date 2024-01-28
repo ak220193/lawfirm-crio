@@ -1,0 +1,60 @@
+.heroText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2rem;
+  width: 60%;
+  height: 400px;
+  margin-top: 10pc;
+}
+
+.heroText h1 {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 560px;
+  height: 99px;
+}
+.heroText p {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 400px;
+  text-decoration: none;
+  color: var(--color-white);
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+}
+
+.form input {
+  background-color: rgb(227, 227, 227);
+  width: 350px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.SubmitButton {
+  font-size: 15px;
+  border-radius: 15px;
+  padding: 7px 14px;
+  cursor: pointer;
+  background-color: rgb(255, 255, 74);
+}
+
+.bannerImage {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: -37%;
+  margin-left: 10rem;
+}
