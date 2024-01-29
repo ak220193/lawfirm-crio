@@ -11,7 +11,7 @@ const Grid = () => {
   return (
     <>
       <div className={styles.main}>
-        <h1>Area of Practices</h1>
+        <h3>Area of Practices</h3>
         <div className={styles.gridcontainer}>
           <div className={styles.griditem}>
             <img src={Image1} alt="" />
