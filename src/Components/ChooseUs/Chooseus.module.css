@@ -7,34 +7,29 @@
   margin-top: 10%;
 }
 
-.card {
+.maincard {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   margin-left: 10%;
   margin-top: 8%;
-  gap: 10px;
+  gap: 20%;
+  border: 1px solid gray;
 }
 
-.card img {
-  width: 100px;
-  border-radius: 50%;
-  margin-left: 10px;
-  margin-top: 10px;
-  height: max-content;
+.Card {
+  width: 35vw;
+  height: 40vh;
 }
+.cardimage {
+  width: auto;
+  border-radius: 50%;
+}
+
 .btn {
-  width: 250px;
+  width: 100px;
   background-color: yellow;
   border-radius: 15px;
   display: flex;
   align-items: flex-start;
   justify-content: center;
-}
-
-.ActionArea {
-  background-color: #1d1d1d;
-}
-
-.textContent {
-  color: white;
 }
