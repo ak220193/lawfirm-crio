@@ -6,7 +6,7 @@
 
 .card {
   width: 359px;
-  height: 357px;
+  height: 365px;
   background-color: #1d1d1d;
   border-radius: 4px;
   margin-left: 10%;
@@ -41,13 +41,14 @@
 }
 
 .description {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5;
   margin-bottom: 16px;
+  font-family: poppins;
 }
 
 .link {
-  font-size: 23px;
+  font-size: 20px;
   text-decoration: none;
   color: black;
   display: inline-block;
