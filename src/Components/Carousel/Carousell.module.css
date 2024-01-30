@@ -3,22 +3,57 @@
   margin-left: 20%;
 }
 
-.Carousel {
-  margin-left: 19%;
-  margin-top: 40px;
-  border: 1px solid white;
+.reviewcard {
+  margin-left: 200px;
+  margin-top: 50px;
 
-  background-color: black;
+  width: 70%;
   display: flex;
-  flex-direction: row;
-  gap: 20%;
+  gap: 20px;
 }
 
 .image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 105px;
+  margin-left: 10%;
+  padding: 2px;
+  margin-top: 10px;
+}
+
+.card {
+  border: 1px solid white;
+  gap: 20px;
+}
+
+.btn {
+  font-size: 16px;
+  background-color: yellow;
+  border-radius: 10px;
+  color: #1d1d1d;
+  margin-left: 10%;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  padding: 2px;
+}
+
+.CardMedia {
   width: 100px;
+  height: 100px;
+  margin-left: 30px;
   border-radius: 50%;
+}
+
+.Headtext {
+  margin-top: 3px;
+  font-size: larger;
+  display: flex;
+  align-items: flex-start;
+  margin-left: 10%;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 10px;
+  margin-left: 10%;
 }
