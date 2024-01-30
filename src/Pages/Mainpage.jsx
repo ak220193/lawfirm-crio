@@ -5,6 +5,8 @@ import BannerText from "../Components/BannerText/BannerText";
 import ChooseUs from "../Components/ChooseUs/ChooseUs";
 import Grid from "../Components/Grid/Grid";
 import Carousel from "../Components/Carousel/Carousel";
+import Testimonial from "../Components/Testimonials/Testimonial";
+import FAQ from "../Components/FAQ/FAQ";
 
 const Mainpage = () => {
   return (
@@ -15,6 +17,8 @@ const Mainpage = () => {
       <ChooseUs />
       <Grid />
       <Carousel />
+      <Testimonial />
+      <FAQ />
     </div>
   );
 };

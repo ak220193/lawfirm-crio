@@ -11,9 +11,8 @@
 }
 
 .reviewcard {
-  margin-left: 200px;
+  margin-left: 15%;
   margin-top: 50px;
-
   width: 70%;
   display: flex;
   gap: 20px;

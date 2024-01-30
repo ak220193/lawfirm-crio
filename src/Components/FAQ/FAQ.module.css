@@ -1,0 +1,91 @@
+.Faqcontainer {
+  align-items: center;
+  padding: 50px 0;
+  margin-top: 10%;
+}
+
+.container1 {
+  text-align: left;
+  margin-bottom: 50px;
+  margin-left: 10%;
+}
+
+.accordian {
+  display: flex;
+  flex-direction: column;
+  margin-left: 47%;
+  margin-top: -10%;
+  width: 40%;
+}
+.accordian1 {
+  width: 45%;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 50px;
+  margin-top: 2%;
+  margin-left: 45%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  row-gap: 40px;
+}
+
+.accordian h1,
+.accordian1 h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.accordionItem {
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.accordionTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 10px;
+  background-color: black;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  border-top: 1px solid whitesmoke;
+  gap: 10px;
+}
+
+.accordionTitle:hover {
+  background-color: black;
+}
+
+.accordionTitle.active {
+  background-color: black;
+}
+
+.accordionContent {
+  padding: 10px;
+  background-color: rgb(255, 255, 205);
+  border-radius: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+  color: black;
+  border: 1px solid white;
+}
+.accordionTitle {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.addIcon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.active {
+  background-color: #d0d0d0;
+}
