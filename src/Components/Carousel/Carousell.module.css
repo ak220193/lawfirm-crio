@@ -1,0 +1,24 @@
+.header {
+  margin-top: 60%;
+  margin-left: 20%;
+}
+
+.Carousel {
+  margin-left: 19%;
+  margin-top: 40px;
+  border: 1px solid white;
+
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  gap: 20%;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 105px;
+  width: 100px;
+  border-radius: 50%;
+}
