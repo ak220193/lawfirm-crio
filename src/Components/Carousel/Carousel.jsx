@@ -3,6 +3,7 @@ import styles from "./Carousell.module.css";
 import Person1 from "../../Assets/Ellipse 14.png";
 import Person2 from "../../Assets/Ellipse 14 (1).png";
 import Person3 from "../../Assets/Ellipse 14 (2).png";
+import Arrow from "../../Assets/arrow.png";
 import {
   CCard,
   CCardImage,
@@ -54,6 +55,9 @@ const Carousel = () => {
         <h2>
           What Says <br /> Our Happy Clients
         </h2>
+        <div className={styles.arrow}>
+          <img src={Arrow} alt="arrow" width={112} />
+        </div>
       </div>
       <div className={styles.reviewcard}>
         {cards.map((card, index) => (

@@ -2,6 +2,13 @@
   margin-top: 60%;
   margin-left: 20%;
 }
+.arrow {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-left: 45%;
+  margin-top: -30px;
+}
 
 .reviewcard {
   margin-left: 200px;
