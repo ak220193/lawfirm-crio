@@ -8,6 +8,7 @@ import Carousel from "../Components/Carousel/Carousel";
 import Testimonial from "../Components/Testimonials/Testimonial";
 import FAQ from "../Components/FAQ/FAQ";
 import Newsletter from "../Components/Newsletter/Newsletter";
+import Footer from "../Components/Footer/Footer";
 
 const Mainpage = () => {
   return (
@@ -21,6 +22,7 @@ const Mainpage = () => {
       <Testimonial />
       <FAQ />
       <Newsletter />
+      <Footer />
     </div>
   );
 };

@@ -1,0 +1,55 @@
+.Footer {
+  width: 1440px;
+  height: 367px;
+}
+
+.Footermain {
+  margin-left: 10%;
+  margin-top: 10%;
+  display: flex;
+  gap: 10px;
+}
+.Footerimage {
+  object-fit: contain;
+  float: left;
+  margin-top: 10%;
+}
+.footernav {
+  font-family: Arial;
+  color: white;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+  font-size: 22px;
+  padding: 10px;
+  margin-left: 90px;
+}
+
+.Social {
+  display: flex;
+  margin-left: 10px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.Social img {
+  margin-left: 90px;
+}
+
+.Copyrights {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.Copyrights p {
+  font-size: 22px;
+  line-height: 36px;
+  letter-spacing: -0.5px;
+  font-weight: normal;
+  color: #ffffff;
+}
